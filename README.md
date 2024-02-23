@@ -2,7 +2,7 @@
 
 ### Description
 
-This is a simple POC for CMB where currently we have added the basic hierarchy of the project and the basic structure of the project.
+This is a simple graphql server where currently we have added the basic hierarchy of the project and the basic structure of the project.
 
 ### Running the project
 
@@ -43,7 +43,6 @@ query {
         description,
         entities {
           id,
-          trMarketvalue,
           inceptionDate,
           type
           subAccounts {
@@ -81,7 +80,6 @@ query {
         description,
         entities {
           id,
-          trMarketvalue,
           inceptionDate,
           type
           subAccounts {
